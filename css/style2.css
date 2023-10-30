@@ -1,0 +1,130 @@
+:root {
+  --rojo: #e50914;
+  --fondo: #141414;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--fondo);
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.prime {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url(/img/jay-wennington.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  align-items: end;
+  justify-content: center;
+}
+
+.nave {
+  width: 90%;
+  margin: auto;
+}
+
+header .nave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #dfdfdf;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+  color: #fff;
+}
+
+.pagina-principal {
+  font-size: 16px;
+  min-height: 40.62em;
+  color: #fff;
+}
+
+.pagina-principal .titulo {
+  font-weight: 600;
+  font-size: 3.12em;
+  margin-bottom: 0.4em;
+}
+
+.pagina-principal .descripcion {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.75em;
+  max-width: 50%;
+  margin-bottom: 1.25em;
+}
+
+.pagina-principal .boton {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: #fff;
+  font-size: 1.12em;
+}
+
+.pagina-principal .boton:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 10%;
+}
+
+.layout {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.layout img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.contacto {
+  margin-bottom: 20px;
+}
+
+.contacto h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.derechos-de-autor {
+  font-size: 12px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Bodeguita / Carta</title>
+    <link rel="stylesheet" href="/css/style2.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <section class="prime">
+      <header>
+        <div class="nave">
+          <img
+            src="/img/logo.png"
+            alt="Logo"
+            class="logotipo"
+            width="180"
+            height="160"
+          />
+          <nav>
+            <a href="#" class="activo"></a>
+            <a href="/index.html">Nosotros</a>
+            <a href="/pages/Carta.html">Carta</a>
+            <a href="/pages/Contacto.html">Contactanos</a>
+          </nav>
+        </div>
+
+        <div class="pagina-principal">
+          <div class="contenedor">
+            <h3 class="titulo">Nuestra Carta</h3>
+            <p class="descripcion">
+              Una imagen vale más que mil palabras. ¡Que no te lo cuenten! .-LB
+            </p>
+            <button role="button" class="boton">
+              <i class="fa-solid fa-arrow-right"></i>Precios Catering
+            </button>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section class="layout">
+      <div>
+        <img src="/img/pag1.jpg" alt="Página 1" />
+      </div>
+      <div>
+        <img src="/img/pag2.jpg" alt="Página 2" />
+      </div>
+      <div>
+        <img src="/img/pag3.jpg" alt="Página 3" />
+      </div>
+      <div>
+        <img src="/img/pag4.jpg" alt="Página 4" />
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".layout").slick({
+          infinite: true, // Permite desplazarse infinitamente por las imágenes
+          slidesToShow: 1, // Muestra una imagen a la vez
+          slidesToScroll: 1, // Se desplaza una imagen a la vez
+          dots: true, // Muestra indicadores de navegación
+          autoplay: true, // Reproduce automáticamente el carrusel
+          autoplaySpeed: 2000, // Velocidad de reproducción (en milisegundos)
+        });
+      });
+    </script>
+
+    <div class="footer">
+      <footer>
+        <div class="contacto">
+          <h3>Contactanos</h3>
+          <p>Teléfono: (123) 456-7890</p>
+          <p>Correo electrónico: info@labodeguita.com</p>
+          <p>Dirección: Calle Tia Mariquita, Osuna, España</p>
+        </div>
+        <div class="derechos-de-autor">
+          <p>&copy; 2023 Like wolf</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
